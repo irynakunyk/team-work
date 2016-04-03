@@ -19,7 +19,163 @@ body {
 /* BLOCK 8 FACEBOOK WIDGET */
 
 /* BLOCK 9 OUR PARTNERS */
+#block_partners {
+  height: 385px;
+  background: #d8d7d5;
+}
+
+#content_partners {
+  width: 1246px;
+  height: 100%;
+  margin: auto;
+}
+
+#text_partners {
+  width: 235px;
+  height: 40px;
+  margin: auto;
+  position: relative;
+  top: 45px;
+}
+
+#text_partners h1 {
+  margin: 0;
+  color: #393735;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+#text_partners h1 span {
+  color : #6ab2de;
+}
+
+#blockImages_partners {
+  width: 1015px;
+  height: 195px;
+  margin: 100px auto;
+
+}
+
+.images_partners {
+  width: 195px;
+  height: 195px;
+  border-radius: 195px;
+  background: #2d2c2a;
+  float: left;
+  margin-left: 107.5px;
+
+}
+
+.images_partners p {
+  width: 135px;
+  margin-left: 30px;
+  margin-top: 60px;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+
+}
 
 /* BLOCK 10 OUR CONTACTS */
 
+#block_contacts {
+  height: 440px;
+  background: #181918;
+  overflow: hidden;
+}
+
+#content_contacts {
+  width: 1160px;
+  height: 100%;
+  margin: auto;
+}
+
+#text_contacts {
+  width: 470px;
+  height: 315px;
+  position: relative;
+  top: 70px;
+  float: left;
+  margin-left: 130px;
+}
+
+
+#text_contacts h1 {
+  margin: 0;
+  color: white;
+  font-size: 35px;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+#text_contacts h1 span {
+  color : #6ab2de;
+}
+
+#text_contacts p {
+  margin-top: 60px;
+  color: #b5b0aa;
+  font-size: 14px;
+  font-family: sans-serif;
+  line-height: 25px;
+}
+
+#call_contacts {
+  width: 365px;
+  height: 210px;
+  margin-top: 75px;
+  float: right;
+  margin-right: 110px;
+}
+
+#call_contacts h1 {
+  margin: 0;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#button_contacts {
+  width: 355px;
+  height: 50px;
+  margin-top: 80px;
+  border: 3px white solid;
+  border-radius: 10px;
+}
+
+#button_contacts a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  color: white;
+  font-size: 22px;
+  font-family: sans-serif;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+
+}
+
 /* BLOCK 11 FOOTER */
+
+#block_copyring {
+  height: 55px;
+  background: #232322;
+}
+
+#text_copyring {
+  width: 325px;
+  height: 100%;
+  margin: auto;
+}
+
+#text_copyring span {
+  display: block;
+  color: white;
+  font-size: 14px;
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 55px;
+}
