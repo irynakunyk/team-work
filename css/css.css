@@ -50,6 +50,60 @@ body {
 /* BLOCK 5 WHAT WE DO */
 
 /* BLOCK 6 OUR TEAM */
+.top_team {
+  text-align: center;
+  height: 1000px;
+  width: 100%;
+  background-color: #1F1D1D;
+}
+#header {
+  color: white;
+}
+.men_team_1 {
+  margin-left: 120px;
+  margin-top: 40px;
+  height: 100%;
+  width: 237px;
+  color: rgba(27, 175, 222, 0.8);
+  float: left;
+}
+.men_team_2 {
+  height: 100%;
+  width: 237px;
+  float: left;
+  margin-top: 40px;
+  margin-left: 40px;
+  color: rgba(27, 175, 222, 0.8);
+
+}
+.men_team_3 {
+  height: 100%;
+  width: 237px;
+  float: left;
+  margin-top: 40px;
+  margin-left: 40px;
+  color: rgba(27, 175, 222, 0.8);
+}
+.men_team_4 {
+  height: 100%;
+  width: 237px;
+  float: left;
+  margin-top: 40px;
+  margin-left: 40px;
+  color: rgba(27, 175, 222, 0.8);
+}
+#span_team {
+  color: rgba(27, 175, 222, 0.8);
+}
+.p_team {
+  text-align: left;
+  color: white;
+}
+.read_team {
+  float: left;
+  color: rgba(27, 175, 222, 0.8);
+
+}
 
 /* BLOCK 7 COMMENT */
 
