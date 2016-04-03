@@ -25,7 +25,7 @@ body {
 }
 
 #content_partners {
-  width: 1246px;
+  width: 1160px;
   height: 100%;
   margin: auto;
 }
@@ -76,6 +76,10 @@ body {
   text-align: center;
   font-size: 30px;
 
+}
+
+.images_partners p:hover {
+  cursor: default;
 }
 
 /* BLOCK 10 OUR CONTACTS */
