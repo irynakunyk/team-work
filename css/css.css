@@ -64,7 +64,7 @@ body {
   margin-top: 0;
   color: white;
   position: relative;
-  top: 35px;
+  top: 55px;
 }
 .men_team_1 {
   margin-left: 120px;
@@ -108,9 +108,37 @@ body {
 }
 .read_team {
   float: left;
+  text-decoration: none;
   color: rgba(27, 175, 222, 0.8);
 }
 .older_team {
+  clear: both;
+  margin-left: 118px;
+  margin-top: 75px;
+  text-decoration: none;
+  float: left;
+  color: rgba(27, 175, 222, 0.8);
+}
+#button_team {
+  clear: both;
+  width: 223px;
+  height: 50px;
+  margin-top: 0;
+  border: 2px rgba(27, 175, 222, 0.8) solid;
+  border-radius: 5px;
+  margin-left: 540px;
+
+}
+#button_team a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  font-size: 25px;
+  font-family: sans-serif;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: rgba(27, 175, 222, 0.8);
 
 }
 
