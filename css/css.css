@@ -56,8 +56,15 @@ body {
   width: 100%;
   background-color: #1F1D1D;
 }
+.div_head_team {
+  height: 100px;
+  width: 100%;
+}
 #header {
+  margin-top: 0;
   color: white;
+  position: relative;
+  top: 35px;
 }
 .men_team_1 {
   margin-left: 120px;
@@ -102,6 +109,8 @@ body {
 .read_team {
   float: left;
   color: rgba(27, 175, 222, 0.8);
+}
+.older_team {
 
 }
 
