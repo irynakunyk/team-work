@@ -3,7 +3,7 @@
   padding: 0;
 }
 body {
-  margin: 0;
+  width: 100%;
   font-family: sans-serif;
 }
 
@@ -12,6 +12,7 @@ body {
   width: 100%;
   height: 60px;
   background-color: #ffffff;
+  position: fixed;
 }
 .company-logo{
   float: left;
@@ -42,6 +43,8 @@ float: right;
 .main-nav{
   list-style: none;
   height: 60px;
+  position: relative;
+  margin-right: 200px;
 }
 .main-nav li {
   display: inline-block;
@@ -61,10 +64,12 @@ float: right;
   color: #497FC1;
 }
 .head-search{
-  background-image: url(../images/search_head.png);
-  background-position: 0 0;
-  background-repeat: no-repeat;
-  height: 25px;
+  background: url(../images/search_head.png) left top no-repeat;
+  height: 20px;
+  width: 180px;
+  position: absolute;
+  right: 10px;
+  top: 18px;
   border: 1px solid transparent;
   padding-left: 25px;
   line-height: 20px;
@@ -73,13 +78,14 @@ float: right;
 /* BLOCK 2 CONTEINER TABS */
 .conteiner-tabs{
   width: 100%;
-  height: 450px;
+  height: 510px;
   background-color: #B7B3B3;
 }
 .main-headline{
 float: left;
-margin-left: 170px;
-width:700px;
+margin-top: 60px;
+margin-left: ;
+width:70%;
 }
  .head-line{
   margin-top: 80px;
@@ -98,7 +104,7 @@ width:700px;
   padding: 5px;
 }
 .head-button{
-  margin-top: 40px;
+  margin-top:  50px;
 }
 .head-button input{
   width: 355px;
@@ -108,13 +114,20 @@ width:700px;
   background-color: #4D81C2;
   border: 1px solid #4D81C2;
   border-radius: 5px;
- margin-left: 150px;
+  margin-left:30%;
 }
 .big-img{
-
+float: right;
+width: 30%;
+margin-top: 60px;
 }
 
-
+.main{
+  width: 900px;
+  margin: 0 auto;
+  height: auto;
+  background-color: #F15A24;
+}
 
 /*.name{
   background: #C2892C;
