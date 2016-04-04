@@ -125,6 +125,41 @@ margin-top: 60px;
   max-width: 100%;
 }
 /* BLOCK 3 MEDIA */
+.media {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 16px;
+  width: 100%;
+  float: left;
+}
+
+.media ul {
+  margin: auto;
+  padding-right: 15%;
+  padding-left: 15%;
+  overflow: hidden;
+  background-color: #e1e1e1;
+  float: left;
+}
+
+.media ul li {
+  display: inline-block;
+  float: left;
+  margin: 10px;
+}
+
+.media ul li a {
+  display: inline-block;
+  width: 136px;
+  background-color: #c3c2c2;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  color: #2d2c2a;
+}
+
+.media ul li a:hover {
+    background-color: gray;
+}
 
 /* BLOCK 4 SUBSCRIBE */
 #div_subscribe {
@@ -166,6 +201,15 @@ margin-top: 60px;
 
 
 /* BLOCK 5 WHAT WE DO */
+.img {
+  margin: 2%;
+  padding-left: 18%;
+}
+
+.text {
+  margin: 2%;
+  padding-left: 18%;
+}
 
 /* BLOCK 6 OUR TEAM */
 .top_team {
