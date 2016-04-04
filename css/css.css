@@ -1,11 +1,129 @@
-body {
+*{
   margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  font-family: sans-serif;
 }
 
 /* BLOCK 1 HEADER */
+.header{
+  width: 100%;
+  height: 60px;
+  background-color: #ffffff;
+  position: fixed;
+}
+.company-logo{
+  float: left;
+  height: 60px;
+  width:235px;
+  background-color: #D6D4D4;
+  margin-left: 130px;
+}
+a.logo{
+  height: 20px;
+  width: 100%;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: normal;
+  font-family: sans-serif;
+  display: inline-block;
+  text-align: center;
+  margin: 20px auto;
+  color: #050500;
+  line-height: 20px;
+}
 
+.head-nav{
+width: auto;
+height: 60px;
+float: right;
+}
+.main-nav{
+  list-style: none;
+  height: 60px;
+  position: relative;
+  margin-right: 200px;
+}
+.main-nav li {
+  display: inline-block;
+  padding-top: 20px;
+}
+
+.main-nav li a{
+  font-size: 20px;
+  line-height: 20px;
+  color: #727576;
+  margin-left: 50px;
+  padding-top: 20px;
+  text-decoration: none;
+  text-align: center;
+}
+.main-nav li a:hover{
+  color: #497FC1;
+}
+.head-search{
+  background: url(../images/search_head.png) left top no-repeat;
+  height: 20px;
+  width: 180px;
+  position: absolute;
+  right: 10px;
+  top: 18px;
+  border: 1px solid transparent;
+  padding-left: 25px;
+  line-height: 20px;
+  font-size: 15px;
+}
 /* BLOCK 2 CONTEINER TABS */
-
+.conteiner-tabs{
+  width: 100%;
+  height: 510px;
+  background-color: #B7B3B3;
+}
+.main-headline{
+float: left;
+margin-top: 60px;
+margin-left: ;
+width:65%;
+}
+ .head-line{
+  margin-top: 80px;
+  font-weight: bold;
+  font-size: 60px;
+  text-align: center;
+  color: #fff;
+}
+.head-content{
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+  margin-top: 25px;
+  padding: 5px;
+}
+.head-button{
+  margin-top:  50px;
+}
+.head-button input{
+  width: 355px;
+  height: 45px;
+  color: #fff;
+  font-size: 20px;
+  background-color: #4D81C2;
+  border: 1px solid #4D81C2;
+  border-radius: 5px;
+  margin-left:30%;
+}
+.big-img{
+float: right;
+width: 35%;
+margin-top: 60px;
+}
+.big-img img{
+  max-width: 100%;
+}
 /* BLOCK 3 MEDIA */
 
 /* BLOCK 4 SUBSCRIBE */
