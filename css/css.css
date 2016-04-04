@@ -85,7 +85,7 @@ float: right;
 float: left;
 margin-top: 60px;
 margin-left: ;
-width:70%;
+width:65%;
 }
  .head-line{
   margin-top: 80px;
@@ -118,8 +118,11 @@ width:70%;
 }
 .big-img{
 float: right;
-width: 30%;
+width: 35%;
 margin-top: 60px;
+}
+.big-img img{
+  max-width: 100%;
 }
 /* BLOCK 3 MEDIA */
 
